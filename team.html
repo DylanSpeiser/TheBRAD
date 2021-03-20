@@ -9,8 +9,8 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body style="width: 100%;">
-        <nav class="navbar navbar-dark bg-dark text-white justify-content-between">
-            <a class="navbar-brand">The BRAD</a>
+        <nav class="navbar navbar-dark bg-dark text-white justify-content-between fixed-top d-none d-md-flex">
+            <a class="navbar-brand" href="index.html">The BRAD</a>
             <ul class="nav">
                 <li class="nav-item"><a class="nav-link" href="team.html">Meet the Team</a></li>
                 <li class="nav-item"><a class="nav-link" href="abstract.html">Abstract</a></li>
@@ -18,21 +18,34 @@
             </ul>
             <a></a>
         </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top d-flex d-md-none">
+            <a class="navbar-brand" href="index.html">The BRAD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="team.html">Meet the Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="abstract.html">Abstract</a></li>
+                    <li class="nav-item"><a class="nav-link" href="howitworks.html">How it Works</a></li>
+                </ul>
+            </div>
+        </nav>
         <div class="container">
-            <br>
+            <br><br><br>
             <h1 class="display-1 text-center">Meet BRAD's Creators:</h1>
             <br>
             
             <div class="jumbotron" style="padding-bottom: 3rem; padding-top: 3rem;">
                 <div style="display: inline-flex;">
-                    <div style="width: 40%;" class="d-none d-md-block">
+                    <div style="width: 30%;" class="d-none d-md-block">
                         <img src="images/profile/dylan1.png" style="width: 100%;">
                     </div>
-                    <div style="padding-left: 5%;">
+                    <div style="width: 80%; padding-left: 5%;">
                       <h1 class="display-5">Dylan Speiser</h1>
-                      <p class="lead"><b>Favorite Things:</b> Computers, space, broadway, food, the color blue</p>
+                      <p class="lead"><b>Favorite Things:</b> Computers, space, broadway, gaming, food, the color blue</p>
                       <hr class="my-4">
-                      <p>Dylan has years of experience in engineering and can code in 9 different languages. When he's not busy making movies, you can probably find Dylan playing games on his PC or watching YouTube.</p>
+                      <p>Dylan has always thought like an engineer, for basically his entire life. In addition to coding in 9 different languages and building CPUs in Minecraft, Dylan enjoys asking big questions about how and why the universe works. When he's not busy contemplating life or making movies, you can probably find Dylan playing games on his PC or watching YouTube.</p>
                     </div>
                 </div>
                 <div style="width: 100%; display: flex;" class="d-block d-md-none">
@@ -42,14 +55,14 @@
             
             <div class="jumbotron" style="padding-bottom: 3rem; padding-top: 3rem;">
                 <div style="display: inline-flex;">
-                    <div style="width: 40%;" class="d-none d-md-block">
+                    <div style="width: 30%;" class="d-none d-md-block">
                         <img src="images/profile/max1.png" style="width: 100%;">
                     </div>
-                    <div style="padding-left: 5%;">
+                    <div style="width: 80%; padding-left: 5%;">
                       <h1 class="display-5">Max Burgida</h1>
-                      <p class="lead"><b>Favorite Things:</b> Computers, space, broadway, food, the color blue</p>
+                      <p class="lead"><b>Favorite Things:</b> Basketball, lacrosse, movies, acting, gaming, eating, sleeping</p>
                       <hr class="my-4">
-                      <p>Dylan has multiple years of experience in engineering and can code in 9 different languages. When he's not busy making movies, you can probably find Dylan playing games on his PC or watching YouTube.</p>
+                      <p>Max has been immersed in engineering almost his whole life and is extremely excited to be continuing next year at the University of Michigan's School of Engineering. When he's not studying or playing sports, you'll find him usually hanging out with friends or watching movies.</p>
                     </div>
                 </div>
                 <div style="width: 100%; display: flex;" class="d-block d-md-none">
@@ -59,10 +72,10 @@
             
             <div class="jumbotron" style="padding-bottom: 3rem; padding-top: 3rem;">
                 <div style="display: inline-flex;">
-                    <div style="width: 40%;" class="d-none d-md-block">
+                    <div style="width: 30%;" class="d-none d-md-block">
                         <img src="images/profile/adam1.png" style="width: 100%;">
                     </div>
-                    <div style="padding-left: 5%;">
+                    <div style="width: 80%; padding-left: 5%;">
                       <h1 class="display-5">Adam Goldberg</h1>
                       <p class="lead"><b>Favorite Things:</b> Computers, space, broadway, food, the color blue</p>
                       <hr class="my-4">
@@ -75,7 +88,7 @@
             </div>
             
             <div>
-                <p class="h6 text-muted text-center"><small>Brad: The Website v. 0.8.0 Ⓒ 2021</small></p>
+                <p class="h6 text-muted text-center"><small>Brad: The Website Ⓒ 2021</small></p>
             </div>
         </div>
         
