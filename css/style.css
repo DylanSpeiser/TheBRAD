@@ -26,3 +26,13 @@ nav a:hover {
 .jumbotron img {
     border-radius: 5px;
 }
+
+.card-deck {
+    padding-left: 0rem;
+}
+
+@media (max-width: 575.98px) {
+    .card-deck {
+        padding-left: 5rem;
+    }
+}
